@@ -16,11 +16,11 @@ $(document).ready(function () {
         }
     });
 });
-
+/*
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
+            document.title = "Projects | Portfolio David Fernández";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
@@ -29,7 +29,7 @@ document.addEventListener('visibilitychange',
         }
     });
 
-
+*/
 // fetch projects start
 function getProjects() {
     return fetch("projects.json")
